@@ -12,62 +12,57 @@ body {
   box-sizing: border-box;
 }
 .Container {
-  width: 80%;
+  width: 1020px;
   margin: 1.2rem auto;
 }
-.Box-pc {
-  height: 35rem;
-  padding-bottom: 3rem;
+.Box{
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
-.Box-pc-content {
+.Box-content{
+  width: 480px;
   border-color: rgb(0, 195, 255);
   border-style: solid;
   border-width: 0 1px;
-  height: 100%;
-  width: 48%;
 }
-.Title {
-  font-weight: 300;
-  font-size: 2rem;
-  margin: 0;
-}
-.Pc-content {
+.Content{
   font-weight: 300;
   border-color: #808080;
   border-style: solid;
   border-width: 1px 1px 1px 0;
   padding: 2rem;
   margin: 0;
-  margin-top: 3rem;
+  margin-top: 0.5rem;
 }
-.Box-pc-img {
-  border-color: rgb(0, 195, 255);
-  border-style: solid;
-  border-width: 0 1px;
-  height: 100%;
-  width: 49%;
-}
-.Pc-image{
-  width: 100%;
-  height: auto;
-}
-.Sp-image{
-  padding-top: 1rem;
-  width: 100%;
-  height: auto;
-}
-.Box-sp{
-  height: 42rem;
-  width: 38%;
+.Box-image{
+  width: 480px;
   border-color: rgb(0, 195, 255);
   border-style: solid;
   border-width: 0 1px;
 }
-.Sp-content {
-  font-weight: 300;
-  padding: 2rem;
-  margin: 0;
+.Image{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  /* For mobile phones: */
+  .Container {
+    width: 80%;
+    margin: 0.2rem auto;
+  }
+  .Box{
+    flex-direction: column-reverse;
+  }
+  .Content{
+    border-style: none;
+  }
+  .Box-content{
+    width: 100%;
+  }
+  .Box-image{
+    width: 100%;
+  }
 }
 
