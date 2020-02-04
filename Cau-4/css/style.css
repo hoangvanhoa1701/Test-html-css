@@ -124,41 +124,41 @@ body {
 }
 
 .Timeline :nth-child(1) .Title {
-  background: #ff5b49;
+  background: #E74C3C;
 }
 
 .Timeline :nth-child(1) .Title:after {
-  background: #ff5b49;
+  background: #E74C3C;
 }
 
 .Timeline :nth-child(2) .Title {
-  background: #2ecc71;
+  background: #2ECA70;
 }
 
 .Timeline :nth-child(2) .Title:after {
-  background: #2ecc71;
+  background: #2ECA70;
 }
 
 .Timeline :nth-child(3) .Title {
-  background: #e67e22;
+  background: #E67E22;
 }
 
 .Timeline :nth-child(3) .Title:after {
-  background: #e67e22;
+  background: #E67E22;
 }
 
 .Timeline :nth-child(4) .Title {
-  background: #1abc9c;
+  background: #1ABC9C;
 }
 
 .Timeline :nth-child(4) .Title:after {
-  background: #1abc9c;
+  background: #1ABC9C;
 }
 
 .Timeline :nth-child(5) .Title {
-  background: #cea7dd;
+  background: #9B59B6;
 }
 
 .Timeline :nth-child(5) .Title:after {
-  background: #cea7dd;
+  background: #9B59B6;
 }
