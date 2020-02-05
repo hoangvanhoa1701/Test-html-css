@@ -9,7 +9,8 @@ body {
   font-weight: 500;
   line-height: 1.3;
   word-spacing: 1px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .timeline {
@@ -65,7 +66,8 @@ body {
   background: #25303b;
   color: rgba(255, 255, 255, 0.5);
   border: 2px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 0 0 7px #25303b;
+  -webkit-box-shadow: 0 0 0 7px #25303b;
+          box-shadow: 0 0 0 7px #25303b;
 }
 
 .date span {
@@ -177,25 +179,15 @@ body {
   .timeline:before {
     left: 5%;
   }
-  .timeline-box {
-    padding-top: 1.2rem;
-  }
   .date {
-    width: 7.75rem;
-    height: 7rem;
-    left: 0%;
-    font-size: 1.5rem;
-  }
-  .day {
-    font-size: 1.5rem;
-  }
-  .month {
-    font-size: 2rem;
-  }
-  .year {
-    font-size: 1.5rem;
+    left: 5%;
   }
   .inner {
-    width: 85%;
+    width: 82%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .inner {
+    width: 74%;
   }
 }
