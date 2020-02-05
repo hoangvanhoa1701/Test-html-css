@@ -9,26 +9,26 @@ body {
   word-spacing: 1px;
   box-sizing: border-box;
 }
-.Container {
+.container {
   width: 80%;
   margin: 1.2rem auto;
 }
-.Box{
+.box{
     border: 1px solid #333333;
     padding: 3rem 4rem;
 }
-.Box__image{
+.box__image{
     width: 50%;
     height: auto;
     float: left;
-    padding: 0 2rem 1rem 0;
+    margin: 0 2rem 1rem 0;
 }
-.Box__title{
+.box__title{
     font-weight: 700;
     font-size: 1.5rem;
     margin: 0;
 }
-.Box__content{
+.box__content{
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 0;

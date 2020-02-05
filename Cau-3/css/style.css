@@ -11,34 +11,35 @@ body {
   word-spacing: 1px;
   box-sizing: border-box;
 }
-.Container {
+.container {
   width: 40%;
   height: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
 }
-.Box{
+.box{
   display: flex;
   justify-content: space-between;
   text-align: center;
   align-items: center;
 }
-.Box-title{
+.box-title{
   width: 50%;
 }
-.Title{
+.title{
   text-decoration: underline;
-  text-decoration-color: #ffb324;
+  -webkit-text-decoration-color: #ffb324;
+          text-decoration-color: #ffb324;
   text-decoration-thickness: 1px;
   text-underline-position: under;
   font-size: 2.3rem;
 }
-.Box__image{
+.box__image{
   width: 6rem;
   height: auto;
 }
-.Image--reverse{
+.image--reverse{
   transform: scaleX(-1);
   /* transform: skew(360deg); */
 }
