@@ -12,6 +12,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+<<<<<<< HEAD
 .container {
   width: 1020px;
   margin: 1.2rem auto;
@@ -20,18 +21,34 @@ body {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
+=======
+.Container {
+  width: 1020px;
+  margin: 1.2rem auto;
+}
+.Box{
+  width: 100%;
+>>>>>>> bc1d826225314d1de8e0df7b6e13cde7a0ec8f82
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+<<<<<<< HEAD
 .box-content{
+=======
+.Box-content{
+>>>>>>> bc1d826225314d1de8e0df7b6e13cde7a0ec8f82
   width: 480px;
   border-color: rgb(0, 195, 255);
   border-style: solid;
   border-width: 0 1px;
 }
+<<<<<<< HEAD
 .content{
+=======
+.Content{
+>>>>>>> bc1d826225314d1de8e0df7b6e13cde7a0ec8f82
   font-weight: 300;
   border-color: #808080;
   border-style: solid;
@@ -40,16 +57,47 @@ body {
   margin: 0;
   margin-top: 0.5rem;
 }
+<<<<<<< HEAD
 .box-image{
+=======
+.Box-image{
+>>>>>>> bc1d826225314d1de8e0df7b6e13cde7a0ec8f82
   width: 480px;
   border-color: rgb(0, 195, 255);
   border-style: solid;
   border-width: 0 1px;
 }
+<<<<<<< HEAD
 .image{
   width: 100%;
   height: auto;
 }
+=======
+.Image{
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 992px) {
+  /* For mobile phones: */
+  .Container {
+    width: 80%;
+    margin: 0.2rem auto;
+  }
+  .Box{
+    flex-direction: column-reverse;
+  }
+  .Content{
+    border-style: none;
+  }
+  .Box-content{
+    width: 100%;
+  }
+  .Box-image{
+    width: 100%;
+  }
+}
+>>>>>>> bc1d826225314d1de8e0df7b6e13cde7a0ec8f82
 
 @media screen and (max-width: 992px) {
   /* For mobile phones: */
